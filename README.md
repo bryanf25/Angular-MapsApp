@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Important make to work properly with mapbox
+
+Since this app is created with mapBox and depends exclusive of it, you need follow a series of consecutive steps
+
+## Steps
+ 1. clone .env.template and then rename it with .env
+ 2. fill all environment variables
+ 3. create environments folder(optional)
+
+ 4. To execute command: npm run envs
+
+ ## To execute and deploy in dev environment
+
+ 5. npm run start
+
+ ## To execute and deploy in prod environment
+
+ 6. npm run build
